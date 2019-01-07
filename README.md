@@ -50,7 +50,7 @@ to build a container Image using Docker Daemon, follow the steps below
 
 - Clone the repo
 ```
-  git clone https://github.com/VidyasagarMSC/knative-deploy.git
+  git clone https://github.com/IBM-Cloud/knative-node-deploy.git
   cd knative-deploy
 ```
 - Install dependencies
