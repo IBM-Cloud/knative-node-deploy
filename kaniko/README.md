@@ -1,7 +1,7 @@
 # Build a container image from source using Kaniko and push it to IBM Cloud Container Registry
 Learn how to build a source into a container image from a Dockerfile inside a kubernetes cluster and push the image to IBM Cloud Container registry; all of this using Google's Kaniko tool.
 
-**NOTE:** If you don't have a Kubernetes cluster with Knative and Istio installed, Refer [Prerequisites](https://github.com/VidyasagarMSC/knative-deploy#prerequisites) and [Setup IBMCloud CLI + Create a Cluster](https://github.com/VidyasagarMSC/knative-deploy#setup-ibmcloud-cli).
+**NOTE:** If you don't have a Kubernetes cluster with Knative and Istio installed, Refer [Prerequisites](https://github.com/IBM-Cloud/knative-node-deploy#prerequisites) and [Setup IBMCloud CLI + Create a Cluster](https://github.com/IBM-Cloud/knative-node-deploy#setup-ibmcloud-cli).
 
 Clone the repo and move to `kaniko` folder
 ```
