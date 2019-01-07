@@ -1,8 +1,7 @@
-# Knative-deploy
+# Knative-node-deploy
 
 Step-by-step instructions to install Knative with Istio 1.0.2 on IBM Cloud Kubernetes Service(IKS), build and push your image to IBM Cloud Container Registry and deploy the app.
 
-> For up-to-date instructions, refer to this [article on Medium](https://medium.com/vmacwrites/install-knative-with-istio-on-iks-cluster-and-deploy-an-app-on-ibm-cloud-7b7d368b9833)
 
 ### Prerequisites
 
@@ -40,7 +39,7 @@ Step-by-step instructions to install Knative with Istio 1.0.2 on IBM Cloud Kuber
 
 
 ### Build your source into a container image and push using Kaniko
-To Build a source into a container image from a Dockerfile inside a kubernetes cluster and push the image to IBM Cloud Container registry; all of this using Google's Kaniko tool, refer [this link](https://github.com/VidyasagarMSC/knative-deploy/blob/master/kaniko/README.md)
+To Build a source into a container image from a Dockerfile inside a kubernetes cluster and push the image to IBM Cloud Container registry; all of this using Google's Kaniko tool, refer [this link](https://github.com/ibm-cloud/knative-node-deploy/blob/master/kaniko/README.md)
 
 OR
 
@@ -100,6 +99,3 @@ Node App running on IBM Cloud
  ibmcloud cs cluster-rm $CLUSTER_NAME
 ```
 
-### Related Content
-- [Build a container image inside a K8s cluster](https://medium.com/@VidyasagarMSC/build-a-container-image-inside-a-k8s-cluster-and-push-it-to-ibm-cloud-container-registry-abac9b1e5246) and push it to IBM Cloud Container Registry
-- Knative [Monitoring](https://medium.com/vmacwrites/knative-monitoring-with-grafana-zipkin-weavescope-other-plugins-30a2d8d20344)
