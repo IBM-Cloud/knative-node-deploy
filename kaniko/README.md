@@ -5,7 +5,7 @@ Learn how to build a source into a container image from a Dockerfile inside a ku
 
 Clone the repo and move to `kaniko` folder
 ```
- $ git clone https://github.com/VidyasagarMSC/knative-deploy
+ $ git clone https://github.com/IBM-Cloud/knative-node-deploy.git
  $ cd knative-deploy/kaniko
 ```
 Replace `<region>` and/or `<namespace>` values in the `yaml` files with the appropriate values.
@@ -55,7 +55,3 @@ To delete the cluster (removes everything), enter the following command:
 ```
 $ ibmcloud cs cluster-rm $CLUSTER_NAME
 ```
-### Related Content
-- [Install Knative](https://medium.com/vmacwrites/install-knative-with-istio-on-iks-cluster-and-deploy-an-app-on-ibm-cloud-7b7d368b9833) with Istio and deploy an app on IBM Cloud
-- [Build a container image inside a K8s cluster](https://medium.com/@VidyasagarMSC/build-a-container-image-inside-a-k8s-cluster-and-push-it-to-ibm-cloud-container-registry-abac9b1e5246) and push it to IBM Cloud Container Registry
-- Knative [Monitoring](https://medium.com/vmacwrites/knative-monitoring-with-grafana-zipkin-weavescope-other-plugins-30a2d8d20344)
