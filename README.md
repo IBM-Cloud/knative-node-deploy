@@ -46,7 +46,6 @@ OR
 to build a container Image using Docker Daemon, follow the steps below
 
 ### Build the app as a container image using Docker Daemon
-> Rehash of [helloworld-nodejs](https://github.com/knative/docs/tree/master/serving/samples/helloworld-nodejs)
 
 - Clone the repo
 ```
