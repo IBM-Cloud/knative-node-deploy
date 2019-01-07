@@ -5,8 +5,8 @@ Learn how to build a source into a container image from a Dockerfile inside a ku
 
 Clone the repo and move to `kaniko` folder
 ```
- $ git clone https://github.com/IBM-Cloud/knative-node-deploy.git
- $ cd knative-deploy/kaniko
+ $ git clone https://github.com/IBM-Cloud/knative-node-deploy
+ $ cd knative-node-deploy/kaniko
 ```
 Replace `<region>` and/or `<namespace>` values in the `yaml` files with the appropriate values.
 
