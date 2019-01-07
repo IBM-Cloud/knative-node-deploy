@@ -98,3 +98,6 @@ Node App running on IBM Cloud
  ibmcloud cs cluster-rm $CLUSTER_NAME
 ```
 
+### License
+
+See [License.txt](https://github.com/IBM-Cloud/knative-node-deploy/blob/master/License.txt) for license information.
