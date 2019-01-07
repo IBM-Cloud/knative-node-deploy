@@ -1,6 +1,6 @@
 # Knative-node-deploy
 
-Step-by-step instructions to install Knative with Istio 1.0.2 on IBM Cloud Kubernetes Service(IKS), build and push your image to IBM Cloud Container Registry and deploy the app.
+Step-by-step instructions to install Knative with Istio on IBM Cloud Kubernetes Service(IKS), build and push your image to IBM Cloud Container Registry and deploy the app.
 
 
 ### Prerequisites
