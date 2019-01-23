@@ -97,6 +97,9 @@ Node App running on IBM Cloud
 ```
  ibmcloud cs cluster-rm $CLUSTER_NAME
 ```
+### Further reading
+- [Knative Log Analysis with LogDNA on IBM Cloud](https://www.ibm.com/blogs/bluemix/2019/01/knative-log-analysis-with-logdna-on-ibm-cloud/)
+- [Knative Monitoring with Sysdig on IBM Cloud](https://www.ibm.com/blogs/bluemix/2019/01/knative-monitoring-with-sysdig-on-ibm-cloud/)
 
 ### License
 
