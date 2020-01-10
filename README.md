@@ -95,7 +95,7 @@ Node App running on IBM Cloud
 
 - To delete the cluster, enter the following command:
 ```
- ibmcloud ks cluster rm $CLUSTER_NAME
+ ibmcloud ks cluster rm --cluster $CLUSTER_NAME
 ```
 ### Further reading
 - [Knative Log Analysis with LogDNA on IBM Cloud](https://www.ibm.com/blogs/bluemix/2019/01/knative-log-analysis-with-logdna-on-ibm-cloud/)
