@@ -53,5 +53,5 @@ $ ./delete.sh
 ```
 To delete the cluster (removes everything), enter the following command:
 ```
-$ ibmcloud ks cluster rm $CLUSTER_NAME
+$ ibmcloud ks cluster rm --cluster $CLUSTER_NAME
 ```
